@@ -8,7 +8,7 @@ A reference to the supported RPC methods.
 
 ## Client methods
 
-All RPC methods listed here are required to be compliant as an ERC-4337 client.
+All RPC methods listed here are required to be compliant as an ERC-4337 bundler.
 
 ### `eth_sendUserOperation`
 
@@ -87,10 +87,10 @@ Returns an array of supported [EntryPoint](../../introduction/erc-4337-overview.
 {
   "jsonrpc": "2.0",
   "id": 1,
-  // TODO: Add default address.
-  "result": []
+  "result": [
+    "0x..."
+  ]
 }
-
 ```
 
 #### Error response

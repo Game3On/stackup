@@ -12,9 +12,9 @@ This package is open source at [github.com/stackup-wallet/stackup-bundler](https
 
 :::tip
 
-**Require a fully managed instance for your project?**
+**Looking for a fully managed instance for your project instead?**
 
-Come chat with us on [Discord](https://discord.gg/FpXmvKrNed) or [E-mail](mailto:founders@stackup.sh) to get set up ASAP! 🚀
+Use our [cloud platform](https://app.stackup.sh/) to get set up with a bundler in 2 minutes 🚀
 
 :::
 
@@ -22,11 +22,28 @@ Come chat with us on [Discord](https://discord.gg/FpXmvKrNed) or [E-mail](mailto
 
 Make sure to have your environment variables configured before running the client. See the [configure page](./configure.md) for details.
 
-Install with go:
+### Install
+
+To get the latest version:
 
 ```bash
 go install github.com/stackup-wallet/stackup-bundler@latest
 ```
+
+Alternatively, if you're looking for an older version:
+
+```bash
+# See github.com/stackup-wallet/stackup-bundler/releases for version releases
+go install github.com/stackup-wallet/stackup-bundler@vX.Y.Z
+```
+
+### Running the bundler
+
+:::info
+
+Running a bundler requires access to a Geth node with debug API enabled for custom tracing. Most RPC providers do not support this.
+
+:::
 
 Run an instance in `private` mode:
 

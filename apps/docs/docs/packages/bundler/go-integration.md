@@ -6,7 +6,7 @@ sidebar_position: 4
 
 Using the bundler in external Golang applications.
 
-Besides running as a standalone service, the Bundler is built with packages that can be ported into other Golang based applications. This is useful for Golang based block builders who want to support EIP-4337.
+Besides running as a standalone service, the bundler is built with packages that can be ported into other Golang based applications. This is useful for Golang based block builders who want to support EIP-4337.
 
 ## Adding the dependency
 
